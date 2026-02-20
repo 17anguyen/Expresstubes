@@ -186,16 +186,16 @@ export const UpcomingEvents = () => {
                     <p className="text-base box-border caret-transparent leading-[25.6px] mb-4">
                       The largest packaging trade show in North America. See our complete range of tubes, bottles, and jars, plus learn about our latest innovations in sustainable packaging.
                     </p>
-                    <a
-                      href="/contact"
-                      className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
-                    >
-                      Schedule a Meeting
-                    </a>
+                  </p>
+                  <a
+                    href="/contact"
+                    className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
+                  >
+                    Schedule a Meeting
+                  </a>
                 </div>
               </div>
             </div>
-
           </div>
 
           {/* Past Events Section */}
