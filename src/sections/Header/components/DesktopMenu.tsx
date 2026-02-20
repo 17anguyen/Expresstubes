@@ -7,7 +7,7 @@ export const DesktopMenu = () => {
       <div className="relative text-sm box-border caret-transparent shrink-0 h-[67px] leading-[16.8px] w-[234px] overflow-hidden mr-[35px] md:text-base md:leading-[19.2px]">
         <Link to="/home" className="block h-full w-full">
           <img
-            src="https://expresstubes.com/content/Images/exp-white-logo22.png"
+            src="/logo.png"
             alt="ExpressTubes - Experts in custom packaging"
             className="h-full w-full object-contain"
           />
