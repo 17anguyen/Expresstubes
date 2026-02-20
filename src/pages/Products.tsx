@@ -161,11 +161,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
+                      <img
                         src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pet-bottles.jpg"
                         alt="PET Bottles"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -194,11 +194,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
+                      <img
                         src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/hdpe-bottles.jpg"
                         alt="HDPE Bottles"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
@@ -241,11 +241,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
+                      <img
                         src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pp-jars.jpg"
                         alt="PP Jars"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -274,11 +274,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
+                      <img
                         src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pet-jars.jpg"
                         alt="PET Jars"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">

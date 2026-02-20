@@ -7,7 +7,7 @@ export const WhyChooseGreen = () => {
     <body className="text-neutral-600 text-sm not-italic normal-nums font-light accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[22.4px] list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-gotham_ssm_a md:text-base md:leading-[25.6px]">
       <div className="absolute text-sm bg-[#84b82e] box-border caret-transparent h-[110px] leading-[22.4px] w-full z-[-1] left-0 top-0 md:text-base md:leading-[25.6px]"></div>
       <Header />
-      
+
       <div className="relative text-sm box-border caret-transparent leading-[22.4px] mx-auto md:text-base md:leading-[25.6px]">
         {/* Hero Section */}
         <div className="relative text-sm bg-gradient-to-b from-[#5b8fc4] to-[#7ba9d4] box-border caret-transparent clear-both leading-[22.4px] min-h-[400px] w-full pt-[110px] px-[25px] md:text-base md:leading-[25.6px] md:min-h-[500px] md:px-[85px]">
@@ -24,7 +24,7 @@ export const WhyChooseGreen = () => {
 
         {/* Main Content */}
         <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full px-[25px] py-[50px] md:text-base md:leading-[25.6px] md:px-[85px]">
-          
+
           {/* Introduction */}
           <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[50px] md:text-base md:leading-[25.6px]">
             <p className="text-sm box-border caret-transparent leading-[28.8px] text-center mb-[22.4px] max-w-[900px] mx-auto md:text-lg md:leading-[32px]">
@@ -39,18 +39,18 @@ export const WhyChooseGreen = () => {
             <h2 className="text-4xl font-semibold box-border caret-transparent leading-[64px] mb-8 text-center uppercase text-[#84b82e]">
               Our Green Commitment
             </h2>
-            
+
             <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full md:text-base md:leading-[25.6px]">
-              
+
               {/* Recyclable Materials */}
               <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/recyclable-icon.png"
                       alt="Recyclable Materials"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-[150px] mb-6 md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                   <h3 className="text-2xl font-semibold box-border caret-transparent leading-[38.4px] mb-4 uppercase text-blue-600">
                     100% Recyclable Materials
@@ -61,11 +61,11 @@ export const WhyChooseGreen = () => {
                 </div>
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/recyclable-image.jpg"
                       alt="Recyclable Packaging"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -74,20 +74,20 @@ export const WhyChooseGreen = () => {
               <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pcr-image.jpg"
                       alt="PCR Content"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pcr-icon.png"
                       alt="PCR"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-[150px] mb-6 md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                   <h3 className="text-2xl font-semibold box-border caret-transparent leading-[38.4px] mb-4 uppercase text-blue-600">
                     Post-Consumer Recycled Content
@@ -102,11 +102,11 @@ export const WhyChooseGreen = () => {
               <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/sustainable-icon.png"
                       alt="Sustainable Manufacturing"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-[150px] mb-6 md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                   <h3 className="text-2xl font-semibold box-border caret-transparent leading-[38.4px] mb-4 uppercase text-blue-600">
                     Sustainable Manufacturing
@@ -117,11 +117,11 @@ export const WhyChooseGreen = () => {
                 </div>
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/sustainable-image.jpg"
                       alt="Sustainable Manufacturing Process"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -130,20 +130,20 @@ export const WhyChooseGreen = () => {
               <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/biodegradable-image.jpg"
                       alt="Biodegradable Options"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
                   <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                    <img
+                    {/* <img
                       src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/biodegradable-icon.png"
                       alt="Biodegradable"
                       className="text-sm box-border caret-transparent leading-[22.4px] max-w-[150px] mb-6 md:text-base md:leading-[25.6px]"
-                    />
+                    /> */}
                   </div>
                   <h3 className="text-2xl font-semibold box-border caret-transparent leading-[38.4px] mb-4 uppercase text-blue-600">
                     Biodegradable Options
@@ -199,11 +199,11 @@ export const WhyChooseGreen = () => {
               Our commitment to sustainability is backed by industry-recognized certifications and adherence to the highest environmental standards.
             </p>
             <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full text-center p-[3px] md:text-base md:leading-[25.6px]">
-              <img
+              {/* <img
                 src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/certifications.png"
                 alt="Environmental Certifications"
                 className="text-sm box-border caret-transparent leading-[22.4px] max-w-[600px] mx-auto md:text-base md:leading-[25.6px]"
-              />
+              /> */}
             </div>
           </div>
 

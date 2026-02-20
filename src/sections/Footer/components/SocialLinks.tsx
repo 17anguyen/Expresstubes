@@ -29,6 +29,12 @@ export const SocialLinks = () => {
       </div>
       <div className="text-xs box-border caret-transparent leading-[19.2px]">
         © Copyright 2026 • Express Tubes • All Rights Reserved •
+        <a
+          href="https://www.channelready.com/"
+          className="box-border caret-transparent"
+        >
+          Powered by ChannelReady
+        </a>
       </div>
     </div>
   );
