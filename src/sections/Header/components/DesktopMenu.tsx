@@ -1,16 +1,17 @@
 import { NavItem } from "@/sections/Header/components/NavItem";
+import { Link } from "react-router-dom";
 
 export const DesktopMenu = () => {
   return (
     <nav className="text-sm items-center box-border caret-transparent inline-flex leading-[22.4px] w-[calc(100%_-_102px)] md:text-base md:leading-[25.6px]">
       <div className="relative text-sm box-border caret-transparent shrink-0 h-[67px] leading-[16.8px] w-[234px] overflow-hidden mr-[35px] md:text-base md:leading-[19.2px]">
-        <a href="/home" className="block h-full w-full">
+        <Link to="/home" className="block h-full w-full">
           <img
             src="https://expresstubes.com/content/Images/exp-white-logo22.png"
             alt="ExpressTubes - Experts in custom packaging"
             className="h-full w-full object-contain"
           />
-        </a>
+        </Link>
       </div>
       <NavItem label="Explore Packaging" href="/explore-packaging" />
       <NavItem
