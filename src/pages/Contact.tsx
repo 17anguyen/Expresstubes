@@ -31,7 +31,7 @@ export const Contact = () => {
     };
 
     const mailtoURL =
-      `mailto:aliviaxuanthomas@gmail.com?subject=Contact%20Form&body=` +
+      `mailto:info@expresstubes.com?subject=Contact%20Form&body=` +
       `Name: ${encodeURIComponent(formdata.name)}%0D%0A` +
       `Email: ${encodeURIComponent(formdata.email)}%0D%0A` +
       `Phone: ${encodeURIComponent(formdata.phone)}%0D%0A` +
