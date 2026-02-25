@@ -1,6 +1,14 @@
-export const MobileMenuButton = () => {
+type MobileMenuButtonProps = {
+  onClick?: () => void;
+};
+
+export const MobileMenuButton = ({ onClick }: MobileMenuButtonProps) => {
   return (
-    <button className="absolute text-sm bg-white shadow-[rgba(0,0,0,0.3)_1px_1px_5px_1px] box-border caret-transparent h-[62px] leading-[62px] text-center w-[62px] rounded-[50%] right-0 top-[5px] flex items-center justify-center md:text-base md:hidden">
+    <button
+      onClick={onClick}
+      className="absolute text-sm bg-white shadow-[rgba(0,0,0,0.3)_1px_1px_5px_1px] box-border caret-transparent h-[62px] leading-[62px] text-center w-[62px] rounded-[50%] right-0 top-[5px] flex items-center justify-center md:text-base md:hidden"
+      aria-label="Open menu"
+    >
       <svg
         className="w-6 h-6 text-lime-600"
         fill="none"
