@@ -1,52 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
+import { useForm } from "@formspree/react";
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 export const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setSubmitting(true);
-
-    const form = e.currentTarget;
-    const elements = form.elements as typeof form.elements & {
-      name: HTMLInputElement;
-      email: HTMLInputElement;
-      phone: HTMLInputElement;
-      company: HTMLInputElement;
-      interest: HTMLSelectElement;
-      message: HTMLTextAreaElement;
-    };
-
-    const formdata = {
-      name: elements.name.value,
-      email: elements.email.value,
-      phone: elements.phone.value,
-      company: elements.company.value,
-      interest: elements.interest.value,
-      message: elements.message.value,
-    };
-
-    const mailtoURL =
-      `mailto:info@expresstubes.com?subject=Contact%20Form&body=` +
-      `Name: ${encodeURIComponent(formdata.name)}%0D%0A` +
-      `Email: ${encodeURIComponent(formdata.email)}%0D%0A` +
-      `Phone: ${encodeURIComponent(formdata.phone)}%0D%0A` +
-      `Company: ${encodeURIComponent(formdata.company)}%0D%0A` +
-      `Interest: ${encodeURIComponent(formdata.interest)}%0D%0A` +
-      `Message: ${encodeURIComponent(formdata.message)}`;
-
-    // open the user's mail client without navigating away from the page
-    window.open(mailtoURL);
-
-    // update UI states and reset form for better UX
-    setSubmitting(false);
-    setSubmitted(true);
-    form.reset();
-  };
+  // Replace MAILTO flow with Formspree. Set your Formspree form ID below.
+  // Get a form ID from https://formspree.io and replace "YOUR_FORMSPREE_FORM_ID"
+  const [state, handleSubmit] = useForm("xzdayngd");
 
   return (
     <body className="text-neutral-600 text-sm not-italic normal-nums font-light accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[22.4px] list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-gotham_ssm_a md:text-base md:leading-[25.6px]">
@@ -241,15 +202,15 @@ export const Contact = () => {
 
                   <button
                     type="submit"
-                    disabled={submitting || submitted}
-                    className={`w-full text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 transition-all ${submitted
+                    disabled={state.submitting || state.succeeded}
+                    className={`w-full text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 transition-all ${state.succeeded
                       ? "bg-[#5b8fc4] cursor-default"
                       : "bg-[#84b82e] hover:opacity-90"
                       }`}
                   >
-                    {submitted
+                    {state.succeeded
                       ? "Thank you! We will return your message shortly"
-                      : submitting
+                      : state.submitting
                         ? "Sending..."
                         : "Send Message"}
                   </button>
