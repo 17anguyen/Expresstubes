@@ -1,8 +1,53 @@
+import React, { useState } from "react";
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 export const Contact = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitting(true);
+
+    const form = e.currentTarget;
+    const elements = form.elements as typeof form.elements & {
+      name: HTMLInputElement;
+      email: HTMLInputElement;
+      phone: HTMLInputElement;
+      company: HTMLInputElement;
+      interest: HTMLSelectElement;
+      message: HTMLTextAreaElement;
+    };
+
+    const formdata = {
+      name: elements.name.value,
+      email: elements.email.value,
+      phone: elements.phone.value,
+      company: elements.company.value,
+      interest: elements.interest.value,
+      message: elements.message.value,
+    };
+
+    const mailtoURL =
+      `mailto:aliviaxuanthomas@gmail.com?subject=Contact%20Form&body=` +
+      `Name: ${encodeURIComponent(formdata.name)}%0D%0A` +
+      `Email: ${encodeURIComponent(formdata.email)}%0D%0A` +
+      `Phone: ${encodeURIComponent(formdata.phone)}%0D%0A` +
+      `Company: ${encodeURIComponent(formdata.company)}%0D%0A` +
+      `Interest: ${encodeURIComponent(formdata.interest)}%0D%0A` +
+      `Message: ${encodeURIComponent(formdata.message)}`;
+
+    // open the user's mail client without navigating away from the page
+    window.open(mailtoURL);
+
+    // update UI states and reset form for better UX
+    setSubmitting(false);
+    setSubmitted(true);
+    form.reset();
+  };
+
   return (
     <body className="text-neutral-600 text-sm not-italic normal-nums font-light accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[22.4px] list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-gotham_ssm_a md:text-base md:leading-[25.6px]">
       <div className="absolute text-sm bg-[#84b82e] box-border caret-transparent h-[110px] leading-[22.4px] w-full z-[-1] left-0 top-0 md:text-base md:leading-[25.6px]"></div>
@@ -112,7 +157,7 @@ export const Contact = () => {
                 <h2 className="text-2xl font-semibold box-border caret-transparent leading-[38.4px] mb-6 uppercase text-neutral-800">
                   Send Us A Message
                 </h2>
-                <form>
+                <form onSubmit={handleSubmit}>
                   <div className="mb-6">
                     <label htmlFor="name" className="block text-sm font-medium box-border caret-transparent leading-[22.4px] mb-2 uppercase text-neutral-800">
                       Name *
@@ -196,9 +241,17 @@ export const Contact = () => {
 
                   <button
                     type="submit"
-                    className="w-full bg-[#84b82e] text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 hover:opacity-90 transition-opacity"
+                    disabled={submitting || submitted}
+                    className={`w-full text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 transition-all ${submitted
+                      ? "bg-[#5b8fc4] cursor-default"
+                      : "bg-[#84b82e] hover:opacity-90"
+                      }`}
                   >
-                    Send Message
+                    {submitted
+                      ? "Thank you! We will return your message shortly"
+                      : submitting
+                        ? "Sending..."
+                        : "Send Message"}
                   </button>
                 </form>
               </div>
