@@ -48,7 +48,7 @@ export const FooterNav = () => {
         Contact
       </a>
       <a
-        href="tel://800-365-4080"
+        href="tel:18003654080"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase hover:underline"
       >
         1.800.365.4080
