@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export const FooterNav = () => {
   return (
     <nav className="text-sm [align-items:normal] box-border caret-transparent inline-flex flex-col flex-wrap leading-[22.4px] w-full md:text-base md:items-center md:flex-row md:leading-[25.6px]">
-      <a
-        href="/home"
+      <Link
+        to="/"
         className="text-xs font-medium box-border caret-transparent block shrink-0 h-[67px] leading-[19.2px] w-full overflow-hidden mr-[15px] mb-[30px]"
       >
         <img
@@ -10,43 +12,43 @@ export const FooterNav = () => {
           alt="ExpressTubes - Experts in custom packaging"
           className="h-full object-contain"
         />
-      </a>
-      <a
-        href="/explore-packaging"
+      </Link>
+      <Link
+        to="/explore-packaging"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Explore Packaging
-      </a>
-      <a
-        href="/why-choose-green"
+      </Link>
+      <Link
+        to="/why-choose-green"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Why Choose Green?
-      </a>
-      <a
-        href="/products"
+      </Link>
+      <Link
+        to="/products"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Products
-      </a>
-      <a
-        href="/trends"
+      </Link>
+      <Link
+        to="/trends"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Trends
-      </a>
-      <a
-        href="/upcoming-events"
+      </Link>
+      <Link
+        to="/upcoming-events"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Upcoming Events
-      </a>
-      <a
-        href="/contact"
+      </Link>
+      <Link
+        to="/contact"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Contact
-      </a>
+      </Link>
       <a
         href="tel:18003654080"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase hover:underline"
