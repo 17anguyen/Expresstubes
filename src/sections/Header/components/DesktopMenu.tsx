@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export const DesktopMenu = () => {
   return (
-    <nav className="text-sm items-center box-border caret-transparent inline-flex leading-[22.4px] w-[calc(100%_-_102px)] md:text-base md:leading-[25.6px]">
-      <div className="relative text-sm box-border caret-transparent shrink-0 h-[67px] leading-[16.8px] w-[234px] overflow-hidden mr-[35px] md:text-base md:leading-[19.2px]">
+    <nav className="text-sm items-center box-border caret-transparent inline-flex leading-[22.4px] md:text-base md:leading-[25.6px]">
+      <div className="relative text-sm box-border caret-transparent shrink-0 h-[67px] overflow-hidden mr-[35px] md:text-base md:leading-[19.2px]">
         <Link to="/home" className="block h-full w-full">
           <img
             src="/logo.png"
@@ -51,7 +51,6 @@ export const DesktopMenu = () => {
       <NavItem
         label="Upcoming Events"
         href="/upcoming-events"
-        additionalClassName="ml-auto"
       />
       <NavItem
         label="Contact"
