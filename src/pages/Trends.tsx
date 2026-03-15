@@ -1,6 +1,7 @@
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { Link } from "react-router-dom";
 
 export const Trends = () => {
   return (
@@ -272,18 +273,18 @@ export const Trends = () => {
                 Ready to embrace the latest packaging trends?
               </span>
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block bg-[#84b82e] text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 hover:opacity-90 transition-opacity mr-4"
             >
               Contact Our Team
-            </a>
-            <a
-              href="/products"
+            </Link>
+            <Link
+              to="/products"
               className="inline-block bg-blue-600 text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 hover:opacity-90 transition-opacity"
             >
               View Products
-            </a>
+            </Link>
           </div>
 
         </div>

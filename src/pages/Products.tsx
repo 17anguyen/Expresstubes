@@ -1,6 +1,7 @@
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { Link } from "react-router-dom";
 
 export const Products = () => {
   return (
@@ -348,12 +349,12 @@ export const Products = () => {
                 Ready to create your custom packaging?
               </span>
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block bg-[#84b82e] text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 hover:opacity-90 transition-opacity"
             >
               Request a Quote
-            </a>
+            </Link>
           </div>
 
         </div>
