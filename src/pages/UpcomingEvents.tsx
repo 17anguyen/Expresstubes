@@ -1,6 +1,7 @@
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { Link } from "react-router-dom";
 
 export const UpcomingEvents = () => {
   return (
@@ -71,12 +72,12 @@ export const UpcomingEvents = () => {
                   <p className="text-base box-border caret-transparent leading-[25.6px] mb-4">
                     Join us at North America's leading beauty trade show. Discover our latest sustainable packaging solutions and meet with our packaging experts to discuss your custom needs.
                   </p>
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
                   >
                     Schedule a Meeting
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -109,12 +110,12 @@ export const UpcomingEvents = () => {
                   <p className="text-base box-border caret-transparent leading-[25.6px] mb-4">
                     The world's largest natural, organic and healthy products event. See our eco-friendly packaging solutions including PCR content options and biodegradable materials.
                   </p>
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
                   >
                     Schedule a Meeting
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -148,12 +149,12 @@ export const UpcomingEvents = () => {
                   <p className="text-base box-border caret-transparent leading-[25.6px] mb-4">
                     The premier event for creative packaging. Explore our luxury packaging options including aluminum tubes, premium finishes, and innovative design solutions.
                   </p>
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
                   >
                     Schedule a Meeting
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -187,12 +188,12 @@ export const UpcomingEvents = () => {
                       The largest packaging trade show in North America. See our complete range of tubes, bottles, and jars, plus learn about our latest innovations in sustainable packaging.
                     </p>
                   </p>
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
                   >
                     Schedule a Meeting
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -241,12 +242,12 @@ export const UpcomingEvents = () => {
                 Want to meet us at an upcoming event?
               </span>
             </p>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block bg-[#84b82e] text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 hover:opacity-90 transition-opacity"
             >
               Contact Us to Schedule
-            </a>
+            </Link>
           </div>
 
         </div>
