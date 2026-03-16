@@ -2,6 +2,12 @@ import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Link } from "react-router-dom";
+import tubesImage1 from "@/assets/tubes-image-1.png";
+import tubesImage2 from "@/assets/tubes-outlined.png";
+import aluminumTubesImage from "@/assets/aluminum-image.png";
+import bottlesImage1 from "@/assets/bottle-image.png";
+import bottlesImage2 from "@/assets/bottle-thumbs.png";
+import jarsImage1 from "@/assets/jar-thumb.png";
 
 export const Products = () => {
   return (
@@ -49,11 +55,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
-                        src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/laminate-tubes.jpg"
+                      <img
+                        src={tubesImage1}
                         alt="Laminate Tubes"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
@@ -69,12 +75,6 @@ export const Products = () => {
                       <li className="mb-2">Customizable sizes and shapes</li>
                       <li className="mb-2">Various cap options available</li>
                     </ul>
-                    <a
-                      href="/catalog/tubes/laminate"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 
@@ -82,11 +82,7 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
-                        src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/plastic-tubes.jpg"
-                        alt="Plastic Tubes"
-                        className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -102,12 +98,6 @@ export const Products = () => {
                       <li className="mb-2">Cost-effective solution</li>
                       <li className="mb-2">Available with PCR content</li>
                     </ul>
-                    <a
-                      href="/catalog/tubes/plastic"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 
@@ -115,11 +105,7 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
-                        src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/aluminum-tubes.jpg"
-                        alt="Aluminum Tubes"
-                        className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
@@ -135,12 +121,6 @@ export const Products = () => {
                       <li className="mb-2">100% recyclable</li>
                       <li className="mb-2">Excellent for sensitive formulations</li>
                     </ul>
-                    <a
-                      href="/catalog/tubes/aluminum"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 
@@ -162,11 +142,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
-                        src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pet-bottles.jpg"
+                      <img
+                        src={bottlesImage1}
                         alt="PET Bottles"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -182,12 +162,6 @@ export const Products = () => {
                       <li className="mb-2">100% recyclable</li>
                       <li className="mb-2">Wide range of sizes and shapes</li>
                     </ul>
-                    <a
-                      href="/catalog/bottles/pet"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 
@@ -195,11 +169,6 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
-                        src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/hdpe-bottles.jpg"
-                        alt="HDPE Bottles"
-                        className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
@@ -215,12 +184,6 @@ export const Products = () => {
                       <li className="mb-2">Available in natural or colored</li>
                       <li className="mb-2">PCR options available</li>
                     </ul>
-                    <a
-                      href="/catalog/bottles/hdpe"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 
@@ -242,11 +205,11 @@ export const Products = () => {
                 <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[60px] md:text-base md:leading-[25.6px]">
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                     <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                      {/* <img
-                        src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/pp-jars.jpg"
+                      <img
+                        src={aluminumTubesImage}
                         alt="PP Jars"
                         className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -262,12 +225,6 @@ export const Products = () => {
                       <li className="mb-2">Wide mouth for easy filling</li>
                       <li className="mb-2">Multiple closure options</li>
                     </ul>
-                    <a
-                      href="/catalog/jars/pp"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 
@@ -295,12 +252,6 @@ export const Products = () => {
                       <li className="mb-2">100% recyclable</li>
                       <li className="mb-2">Premium appearance</li>
                     </ul>
-                    <a
-                      href="/catalog/jars/pet"
-                      className="inline-block text-blue-600 text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase hover:underline"
-                    >
-                      Learn More →
-                    </a>
                   </div>
                 </div>
 

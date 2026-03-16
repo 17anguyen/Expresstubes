@@ -2,7 +2,10 @@ import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Link } from "react-router-dom";
-
+import monoPackagingImage from "@/assets/Trends/mono-packaging-image.png";
+import fineMistSprayerImage from "@/assets/Trends/fine-mist-image.png";
+import sustainableMaterialsImage from "@/assets/Trends/materials-caps-image-1.png";
+import minimalistDesignImage from "@/assets/Trends/mono-material-image.png";
 export const Trends = () => {
   return (
     <body className="text-neutral-600 text-sm not-italic normal-nums font-light accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[22.4px] list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-gotham_ssm_a md:text-base md:leading-[25.6px]">
@@ -47,11 +50,11 @@ export const Trends = () => {
             <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[100px] md:text-base md:leading-[25.6px]">
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                 <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                  {/* <img
-                    src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/mono-packaging-image.jpg"
+                  <img
+                    src={monoPackagingImage}
                     alt="Mono Packaging"
                     className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                  /> */}
+                  />
                 </div>
               </div>
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
@@ -74,12 +77,7 @@ export const Trends = () => {
                   <li className="mb-2">Meets circular economy goals</li>
                   <li className="mb-2">Consumer-friendly sustainability</li>
                 </ul>
-                <a
-                  href="/mono-packaging"
-                  className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
-                >
-                  Learn More About Mono Packaging
-                </a>
+
               </div>
             </div>
 
@@ -87,11 +85,11 @@ export const Trends = () => {
             <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[100px] md:text-base md:leading-[25.6px]">
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                 <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                  {/* <img
-                    src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/fine-mist-sprayer-image.jpg"
+                  <img
+                    src={fineMistSprayerImage}
                     alt="Fine Mist Sprayer Tubes"
                     className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                  /> */}
+                  />
                 </div>
               </div>
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -114,12 +112,7 @@ export const Trends = () => {
                   <li className="mb-2">Premium user experience</li>
                   <li className="mb-2">Ideal for liquid and lotion formulations</li>
                 </ul>
-                <a
-                  href="/fine-mist-sprayer-tubes"
-                  className="inline-block bg-blue-600 text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
-                >
-                  Explore Fine Mist Sprayers
-                </a>
+
               </div>
             </div>
 
@@ -127,11 +120,11 @@ export const Trends = () => {
             <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[100px] md:text-base md:leading-[25.6px]">
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10">
                 <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                  {/* <img
-                    src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/sustainable-materials-image.jpg"
+                  <img
+                    src={sustainableMaterialsImage}
                     alt="Sustainable Materials"
                     className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                  /> */}
+                  />
                 </div>
               </div>
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10">
@@ -154,12 +147,6 @@ export const Trends = () => {
                   <li className="mb-2">Biodegradable materials</li>
                   <li className="mb-2">FSC-certified paper components</li>
                 </ul>
-                <a
-                  href="/why-choose-green"
-                  className="inline-block bg-[#84b82e] text-white text-sm font-semibold box-border caret-transparent leading-[22.4px] uppercase px-6 py-3 hover:opacity-90 transition-opacity"
-                >
-                  Discover Green Options
-                </a>
               </div>
             </div>
 
@@ -167,11 +154,11 @@ export const Trends = () => {
             <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[100px] md:text-base md:leading-[25.6px]">
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 order-2 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pr-10 md:order-1">
                 <div className="text-sm box-border caret-transparent leading-[22.4px] max-w-full p-[3px] md:text-base md:leading-[25.6px]">
-                  {/* <img
-                    src="https://c.animaapp.com/mlhq4evaFT0BfQ/assets/minimalist-design-image.jpg"
+                  <img
+                    src={minimalistDesignImage}
                     alt="Minimalist Design"
                     className="text-sm box-border caret-transparent leading-[22.4px] max-w-full md:text-base md:leading-[25.6px]"
-                  /> */}
+                  />
                 </div>
               </div>
               <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pl-0 order-1 md:text-base md:leading-[25.6px] md:w-6/12 md:mb-0 md:pl-10 md:order-2">
@@ -234,7 +221,7 @@ export const Trends = () => {
           </div>
 
           {/* Industry Insights */}
-          <div className="relative text-sm bg-[#f5f5f5] box-border caret-transparent clear-both leading-[22.4px] w-full py-[60px] px-[40px] mb-[80px] md:text-base md:leading-[25.6px]">
+          <div className="relative text-sm bg-[#f5f5f5] box-border caret-transparent clear-both leading-[20.4px] w-full py-[150px] px-[40px] mb-[80px] md:text-base md:leading-[25.6px]">
             <h2 className="text-3xl font-semibold box-border caret-transparent leading-[48px] mb-8 text-center uppercase text-neutral-800">
               Industry Insights
             </h2>

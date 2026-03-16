@@ -10,15 +10,15 @@ export const MobileMenu = ({ open, onClose }: MobileMenuProps) => {
 
     const menuItems = [
         { label: "Explore Packaging", href: "/explore-packaging" },
-        {
-            label: "Why Choose Green?",
-            href: "/why-choose-green",
-            dropdown: [
-                { label: "Overview", href: "/why-choose-green" },
-                { label: "Choose Green", href: "/choose-green" },
-                { label: "Sustainable Options", href: "/sustainable-options" },
-            ],
-        },
+        // {
+        //     label: "Why Choose Green?",
+        //     href: "/why-choose-green",
+        //     dropdown: [
+        //         { label: "Overview", href: "/why-choose-green" },
+        //         { label: "Choose Green", href: "/choose-green" },
+        //         { label: "Sustainable Options", href: "/sustainable-options" },
+        //     ],
+        // },
         {
             label: "Products",
             href: "/products",

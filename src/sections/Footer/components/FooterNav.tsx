@@ -19,12 +19,12 @@ export const FooterNav = () => {
       >
         Explore Packaging
       </Link>
-      <Link
+      {/* <Link
         to="/why-choose-green"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"
       >
         Why Choose Green?
-      </Link>
+      </Link> */}
       <Link
         to="/products"
         className="text-xs font-medium box-border caret-transparent block leading-[19.2px] uppercase mr-[15px] hover:underline"

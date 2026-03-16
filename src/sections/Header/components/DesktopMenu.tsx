@@ -15,7 +15,7 @@ export const DesktopMenu = () => {
       </div>
       <div className="flex items-center ml-auto">
         <NavItem label="Explore Packaging" href="/explore-packaging" />
-        <NavItem
+        {/* <NavItem
           label="Why Choose Green?"
           href="/why-choose-green"
           hasDropdown={true}
@@ -24,7 +24,7 @@ export const DesktopMenu = () => {
             { label: "Choose Green", href: "/choose-green" },
             { label: "Sustainable Options", href: "/sustainable-options" },
           ]}
-        />
+        /> */}
         <NavItem
           label="Products"
           href="/products"
