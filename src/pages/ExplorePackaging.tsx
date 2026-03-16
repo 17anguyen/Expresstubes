@@ -8,8 +8,8 @@ export const ExplorePackaging = () => {
     <body className="text-neutral-600 text-sm not-italic normal-nums font-light accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-[22.4px] list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-gotham_ssm_a md:text-base md:leading-[25.6px]">
       <div className="absolute text-sm bg-[#84b82e] box-border caret-transparent h-[110px] leading-[22.4px] w-full z-[-1] left-0 top-0 md:text-base md:leading-[25.6px]"></div>
       <Header />
-
-      <div className="relative text-sm box-border caret-transparent leading-[22.4px] mx-auto md:text-base md:leading-[25.6px]">
+      u
+      <div className="relative text-sm box-border caret-transparent leading-u[22.4px] mx-auto md:text-base md:leading-[25.6px]">u
         {/* Hero Section */}
         <div className="relative text-sm bg-gradient-to-b from-[#5b8fc4] to-[#7ba9d4] box-border caret-transparent clear-both leading-[22.4px] min-h-[400px] w-full pt-[110px] px-[25px] md:text-base md:leading-[25.6px] md:min-h-[500px] md:px-[85px]">
           <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] md:text-base md:leading-[25.6px] md:mb-0">
@@ -85,12 +85,12 @@ export const ExplorePackaging = () => {
               Ready to explore your packaging options?
             </span>
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-block bg-[#84b82e] text-white text-base font-semibold box-border caret-transparent leading-[25.6px] uppercase px-8 py-4 hover:opacity-90 transition-opacity"
           >
             Contact Us Today
-          </a>
+          </Link>
         </div>
 
       </div>

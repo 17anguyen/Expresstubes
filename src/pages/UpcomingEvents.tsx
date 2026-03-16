@@ -44,7 +44,7 @@ export const UpcomingEvents = () => {
           <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full mb-[80px] md:text-base md:leading-[25.6px]">
 
             {/* Event 1 */}
-            <div className="relative text-sm bg-white shadow-[0_2px_8px_rgba(0,0,0,0.1)] box-border caret-transparent clear-both leading-[22.4px] w-full mb-[40px] p-[40px] md:text-base md:leading-[25.6px]">
+            {/* <div className="relative text-sm bg-white shadow-[0_2px_8px_rgba(0,0,0,0.1)] box-border caret-transparent clear-both leading-[22.4px] w-full mb-[40px] p-[40px] md:text-base md:leading-[25.6px]">
               <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full md:text-base md:leading-[25.6px]">
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-3/12 md:mb-0 md:pr-10">
                   <div className="text-sm bg-[#84b82e] box-border caret-transparent leading-[22.4px] text-center p-6 md:text-base md:leading-[25.6px]">
@@ -80,10 +80,10 @@ export const UpcomingEvents = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Event 2 */}
-            <div className="relative text-sm bg-white shadow-[0_2px_8px_rgba(0,0,0,0.1)] box-border caret-transparent clear-both leading-[22.4px] w-full mb-[40px] p-[40px] md:text-base md:leading-[25.6px]">
+            {/* <div className="relative text-sm bg-white shadow-[0_2px_8px_rgba(0,0,0,0.1)] box-border caret-transparent clear-both leading-[22.4px] w-full mb-[40px] p-[40px] md:text-base md:leading-[25.6px]">
               <div className="relative text-sm box-border caret-transparent clear-both leading-[22.4px] w-full md:text-base md:leading-[25.6px]">
                 <div className="relative text-sm box-border caret-transparent float-left leading-[22.4px] w-full mb-[25px] pr-0 md:text-base md:leading-[25.6px] md:w-3/12 md:mb-0 md:pr-10">
                   <div className="text-sm bg-[#84b82e] box-border caret-transparent leading-[22.4px] text-center p-6 md:text-base md:leading-[25.6px]">
@@ -118,7 +118,7 @@ export const UpcomingEvents = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Event 3 */}
             <div className="relative text-sm bg-white shadow-[0_2px_8px_rgba(0,0,0,0.1)] box-border caret-transparent clear-both leading-[22.4px] w-full mb-[40px] p-[40px] md:text-base md:leading-[25.6px]">
