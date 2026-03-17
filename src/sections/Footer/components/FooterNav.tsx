@@ -8,7 +8,7 @@ export const FooterNav = () => {
         className="text-xs font-medium box-border caret-transparent block shrink-0 h-[67px] leading-[19.2px] w-full overflow-hidden mr-[15px] mb-[30px]"
       >
         <img
-          src="/logo.png"
+          src="/logo2.png"
           alt="ExpressTubes - Experts in custom packaging"
           className="h-full object-contain"
         />
